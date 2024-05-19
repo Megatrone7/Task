@@ -79,7 +79,11 @@
         </div>
         <div class="content">
             <div class="logo-center">
-                <img src="ads logo.png" alt="Center Logo">
+                <a href="/login" class=" flex flex-col items-center justify-center">
+                    <img src="ads logo.png" alt="Center Logo">
+                    <span> Login</span>
+                </a>
+
             </div>
         </div>
 
