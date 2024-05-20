@@ -29,9 +29,11 @@
    composer install
    npm install
    ```
+   ```
    composer update 
    npm install -D tailwindcss postcss autoprefixer
-    npx tailwindcss init -p
+   npx tailwindcss init -p
+   ```
 
 
 4. فایل محیطی (.env) را تنظیم کرده و اطلاعات اتصال به پایگاه داده را وارد کنید.
