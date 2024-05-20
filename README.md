@@ -29,17 +29,23 @@
    composer install
    npm install
    ```
+   composer update 
+   npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+
 
 4. فایل محیطی (.env) را تنظیم کرده و اطلاعات اتصال به پایگاه داده را وارد کنید.
 فایل sql دیتابیس را به Mysql منتقل کنید.
+فایل sql داخل پروژه به نام task(1)
 5. برنامه را بسازید و اجرا کنید:
 
    ```
    php artisan key:generate
    php artisan serve
+   npm run dev
    ```
 
-6. در مرورگر به آدرس `http://localhost:8000` مراجعه کنید تا Task را مشاهده کنید.
+
 
 ## استفاده و مثال‌ها
 

@@ -43,7 +43,7 @@
       <!--begin::Menu-->
       <div class="menu menu-column menu-rounded menu-sub-indention px-3" id="#kt_app_sidebar_menu"
         data-kt-menu="true" data-kt-menu-expو="false">
-        
+
         <!--begin:Menu item-->
         <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
           <!--begin:Menu link-->
@@ -99,7 +99,7 @@
 
                 <span class="menu-title">تغیر عنوان سایت</span>
               </a>
-              <a class="menu-link active" href="/admins">
+              <a class="menu-link active" href="/color">
                 <span class="menu-bullet">
                   <span class="bullet bullet-dot"></span>
                 </span>
