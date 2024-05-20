@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $logo->title }}</title>
     <link rel="stylesheet" href="styles.css">
-     {{-- @vite('resources/css/app.css') --}}
+      @vite('resources/css/app.css')
     <style>
         :root {
             --main-color: {{ $logo->color }};
-            /* تعریف متغیر CSS برای رنگ از دیتابیس */
         }
 
         body {
             background-color: var(--main-color);
-            /* استفاده از متغیر CSS برای رنگ پس زمینه */
         }
     </style>
 
